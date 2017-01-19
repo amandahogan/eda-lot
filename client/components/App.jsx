@@ -12,6 +12,7 @@ export default React.createClass({
       <div>
         <Header />
         <Categories categories={categories} />
+        {this.props.children}
         <Footer />
       </div>
     )

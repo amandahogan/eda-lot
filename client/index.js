@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <Route component = { Content }>
           <IndexRoute component = {About}/>
           <Route path='items/:id' component = { DisplayItems }/>
+          <Route path='users/:id' component = { UserProfile }/>
         </Route>
       </Route>
     </Router>
