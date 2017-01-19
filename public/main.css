@@ -1,0 +1,26 @@
+
+.nav flex-column {
+  border-style: solid;
+  border-color: blue;
+}
+
+.header {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  color: #ef1509;
+  border-style: solid;
+  border-color: red;
+}
+.categories {
+  border-style: solid;
+  border-color: grey;
+}
+
+.content {
+  border-style: solid;
+  border-color: red;
+}
+
+.footer {
+  border-style: solid;
+  border-color: grey;
+}
