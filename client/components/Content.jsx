@@ -7,7 +7,7 @@ import Footer from './Footer'
 export default React.createClass({
   render () {
     return (
-      <div>
+      <div className='content'>
       </div>
     )
   }
