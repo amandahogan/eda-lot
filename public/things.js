@@ -208,7 +208,7 @@ export const items = [{
     id: 23,
     categoryId: 7,
     name: 'FOB_1',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -216,7 +216,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_2',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -224,7 +224,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_3',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -232,7 +232,7 @@ export const items = [{
     id: 25,
     categoryId: 7,
     name: 'FOB_4',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: true,
     by: 'Ti'
   },
@@ -240,7 +240,7 @@ export const items = [{
     id: 26,
     categoryId: 7,
     name: 'FOB_5',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -248,81 +248,81 @@ export const items = [{
     id: 27,
     categoryId: 7,
     name: 'FOB_6',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
 ]
 
-export const users = [{
+export const users = [
   {
-    id: 001,
+    id: 1,
     name: 'Alice',
     itemId: null,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars2.githubusercontent.com/u/11096313?v=3&s=96'
   },
   {
-    id: 002,
+    id: 2,
     name: 'Amanda',
     itemId: 21,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars2.githubusercontent.com/u/20230839?v=3&s=96'
   },
   {
-    id: 003,
+    id: 3,
     name: 'Anna_G',
     itemId: 6,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars0.githubusercontent.com/u/22289088?v=3&s=96'
   },
   {
-    id: 004,
+    id: 4,
     name: 'Anna_U',
     itemId: 3,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars0.githubusercontent.com/u/19509465?v=3&s=96'
   },
   {
-    id: 005,
+    id: 5,
     name: 'David',
     itemId: 10,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars1.githubusercontent.com/u/12044333?v=3&s=96'
   },
   {
-    id: 006,
+    id: 6,
     name: 'Jess',
     itemId: 12,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars3.githubusercontent.com/u/22064356?v=3&s=96'
   },
   {
-    id: 007,
+    id: 7,
     name: 'Don',
     itemId: null,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars3.githubusercontent.com/u/228761?v=3&s=96'
   },
   {
-    id: 008,
+    id: 8,
     name: 'Quinn',
     itemId: 18,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars1.githubusercontent.com/u/16204154?v=3&s=96'
   },
   {
-    id: 009,
+    id: 9,
     name: 'Rich',
     itemId: 16,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars0.githubusercontent.com/u/171905?v=3&s=96'
   },
   {
-    id: 010,
+    id: 10,
     name: 'Ti',
     itemId: 25,
     email: 'actualEmail@completelyReal.com',
     image: 'https://avatars1.githubusercontent.com/u/18096040?v=3&s=96'
   }
-}]
+]
