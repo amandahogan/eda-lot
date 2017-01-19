@@ -32,7 +32,7 @@ export const items = [{
     id: 1,
     categoryId: 1,
     name: 'Dr Seuss Hat',
-    image: ,
+    image: '/images/FunnyHat.jpg',
     borrowed: false,
     by: null
   },
@@ -40,7 +40,7 @@ export const items = [{
     id: 2,
     categoryId: 1,
     name: 'Pharoh Hat',
-    image:
+    image: '/images/FunnyHat.jpg',
     borrowed: false,
     by: null
   },
@@ -48,7 +48,7 @@ export const items = [{
     id: 3,
     categoryId: 1,
     name: 'Sparkly Red Hat',
-    image: ,
+    image: '/images/FunnyHat.jpg',
     borrowed: true,
     by: 'Anna_U'
   },
@@ -56,7 +56,7 @@ export const items = [{
     id: 4,
     categoryId: 1,
     name: 'Spotty Hat',
-    image: ,
+    image: '/images/FunnyHat.jpg',
     borrowed: false,
     by: null
   },
@@ -64,7 +64,7 @@ export const items = [{
     id: 5,
     categoryId: 1,
     name: 'Rainbow Striped Hat',
-    image: ,
+    image: '/images/FunnyHat.jpg',
     borrowed: false,
     by: null
   },
@@ -72,7 +72,7 @@ export const items = [{
     id: 6,
     categoryId: 1,
     name: 'Sombrero',
-    image: ,
+    image: '/images/FunnyHat.jpg',
     borrowed: true,
     by: 'Anna_G'
   },
@@ -80,7 +80,7 @@ export const items = [{
     id: 7,
     categoryId: 2,
     name: 'Bean Bag',
-    image: ,
+    image: '/images/furniture.jpeg',
     borrowed: false,
     by: null
   },
@@ -88,7 +88,7 @@ export const items = [{
     id: 8,
     categoryId: 2,
     name: 'Chair',
-    image: ,
+    image: '/images/furniture.jpeg',
     borrowed: false,
     by: null
   },
@@ -96,7 +96,7 @@ export const items = [{
     id: 9,
     categoryId: 2,
     name: 'Desk',
-    image: ,
+    image: '/images/furniture.jpeg',
     borrowed: false,
     by: null
   },
@@ -104,7 +104,7 @@ export const items = [{
     id: 10,
     categoryId: 3,
     name: 'Yoga Mat',
-    image: ,
+    image: '/images/yoga.jpg',
     borrowed: true,
     by: 'Jess'
   },
@@ -112,7 +112,7 @@ export const items = [{
     id: 11,
     categoryId: 3,
     name: 'Block',
-    image: ,
+    image: '/images/yoga.jpg',
     borrowed: false,
     by: null
   },
@@ -120,7 +120,7 @@ export const items = [{
     id: 12,
     categoryId: 3,
     name: 'Strap',
-    image: ,
+    image: '/images/yoga.jpg',
     borrowed: true,
     by: 'David'
   },
@@ -128,7 +128,7 @@ export const items = [{
     id: 13,
     categoryId: 4,
     name: 'Daisy',
-    image: ,
+    image: '/images/animals.jpg',
     borrowed: false,
     by: null
   },
@@ -136,7 +136,7 @@ export const items = [{
     id: 14,
     categoryId: 5,
     name: 'Keyboard',
-    image: ,
+    image: '/images/computerequip.jpg',
     borrowed: false,
     by: null
   },
@@ -144,7 +144,7 @@ export const items = [{
     id: 15,
     categoryId: 5,
     name: 'Mouse',
-    image: ,
+    image: '/images/computerequip.jpg',
     borrowed: false,
     by: null
   },
@@ -152,7 +152,7 @@ export const items = [{
     id: 16,
     categoryId: 5,
     name: 'Monitor',
-    image: ,
+    image: '/images/computerequip.jpg',
     borrowed: true,
     by: 'Rich'
   },
@@ -160,7 +160,7 @@ export const items = [{
     id: 17,
     categoryId: 6,
     name: 'Big Plate',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: false,
     by: null
   },
@@ -168,7 +168,7 @@ export const items = [{
     id: 18,
     categoryId: 6,
     name: 'Set of Cutlery',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: true,
     by: 'Quinn'
   },
@@ -176,7 +176,7 @@ export const items = [{
     id:  19,
     categoryId: 6,
     name: 'Small Plate',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: false,
     by: null
   },
@@ -184,7 +184,7 @@ export const items = [{
     id: 20,
     categoryId: 6,
     name: 'Bowl',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: false,
     by: null
   },
@@ -192,7 +192,7 @@ export const items = [{
     id: 21,
     categoryId: 6,
     name: 'Mug',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: true,
     by: 'Amanda'
   },
@@ -200,7 +200,7 @@ export const items = [{
     id: 22,
     categoryId: 6,
     name: 'Glass',
-    image: ,
+    image: '/images/kitchen.jpg',
     borrowed: false,
     by: null
   },
@@ -208,6 +208,7 @@ export const items = [{
     id: 23,
     categoryId: 7,
     name: 'FOB_1',
+    image: '/images.jpg',
     borrowed: false,
     by: null
   },
@@ -215,6 +216,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_2',
+    image: '/images.jpg',
     borrowed: false,
     by: null
   },
@@ -222,6 +224,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_3',
+    image: '/images.jpg',
     borrowed: false,
     by: null
   },
@@ -229,6 +232,7 @@ export const items = [{
     id: 25,
     categoryId: 7,
     name: 'FOB_4',
+    image: '/images.jpg',
     borrowed: true,
     by: 'Ti'
   },
@@ -236,6 +240,7 @@ export const items = [{
     id: 26,
     categoryId: 7,
     name: 'FOB_5',
+    image: '/images.jpg',
     borrowed: false,
     by: null
   },
@@ -243,6 +248,7 @@ export const items = [{
     id: 27,
     categoryId: 7,
     name: 'FOB_6',
+    image: '/images.jpg',
     borrowed: false,
     by: null
   },
