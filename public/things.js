@@ -208,7 +208,7 @@ export const items = [{
     id: 23,
     categoryId: 7,
     name: 'FOB_1',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -216,7 +216,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_2',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -224,7 +224,7 @@ export const items = [{
     id: 24,
     categoryId: 7,
     name: 'FOB_3',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -232,7 +232,7 @@ export const items = [{
     id: 25,
     categoryId: 7,
     name: 'FOB_4',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: true,
     by: 'Ti'
   },
@@ -240,7 +240,7 @@ export const items = [{
     id: 26,
     categoryId: 7,
     name: 'FOB_5',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
@@ -248,7 +248,7 @@ export const items = [{
     id: 27,
     categoryId: 7,
     name: 'FOB_6',
-    image: '/images.jpg',
+    image: '/images/fob.jpg',
     borrowed: false,
     by: null
   },
