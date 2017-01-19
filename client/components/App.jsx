@@ -11,7 +11,15 @@ export default React.createClass({
     return (
       <div>
         <Header />
-        <Categories categories={categories} />
+
+        <div className="row">
+          <div className="col-4">
+            <Categories categories={categories} />
+          </div>
+
+          <div class="col-8 pull-4">{this.props.children}</div>
+        </div>
+
         <Footer />
       </div>
     )
