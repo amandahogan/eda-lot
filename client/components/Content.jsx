@@ -8,9 +8,6 @@ export default React.createClass({
   render () {
     return (
       <div>
-        <Header />
-        <Categories />
-        <Footer />
       </div>
     )
   }
