@@ -9,7 +9,7 @@ export default React.createClass({
         <h2>Categories</h2>
         <ul>
          {this.props.categories.map( category => {
-           return (<li key={category.id}><Link to = {`/items/${category.id}`}>{category.name}</Link></li>)
+           return (<li key={category.id}><Link to = {`/categories/${category.id}`}>{category.name}</Link></li>)
          } )}
 
         </ul>

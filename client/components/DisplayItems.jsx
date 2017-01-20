@@ -2,17 +2,21 @@ import React from 'react'
 import { Link } from 'react-router'
 
 import { items } from '../../public/things'
+import { users } from '../../public/things'
+
 
 export default React.createClass({
   getInitialState () {
     return {
-      items: []
+      items: [],
+      users: []
     }
   },
 
   componentDidMount () {
     this.setState({
-      items: items
+      items: items,
+      users: users
     })
   },
 
@@ -20,12 +24,31 @@ export default React.createClass({
     const filteredItems = this.state.items.filter(item => {
       return item.categoryId === Number(this.props.params.id)
     })
+    const filteredUsers = this.state.users.filter(user => {
+      return user.itemId === Number(this.props.params.id)
+    })
     return (
       <div>
         <ul>
           {filteredItems.map(item => {
             return (
-              <Link key={item.id} to={`/items/${item.id}`}>{item.name}</Link>
+              <div key={item.id} className="card">
+                  <div className="card-block">
+                      <p className="card-text">{item.name}</p>
+                  </div>
+                  <img src={item.image} alt="Card image" width='200px' />
+                  <div className="card-block">
+                      <p className="card-text">Borrowed: {item.borrowed}</p>
+                  </div>
+                  {filteredUsers.map(user => {
+                    return (
+                    <div key={user.id} className="card-block">
+                        <p className="card-text"> By:
+                            <Link to={`/users/${user.id}`}>{item.by}</Link></p>
+                    </div>
+                    )
+                    })}
+              </div>
             )
           })}
         </ul>

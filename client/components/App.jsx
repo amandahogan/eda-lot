@@ -17,7 +17,7 @@ export default React.createClass({
             <Categories categories={categories} />
           </div>
 
-          <div className="col-8 pull-4">{this.props.children}</div>
+          <div class ="col-8 pull-4">{this.props.children}</div>
         </div>
 
         <Footer />

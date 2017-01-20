@@ -32,224 +32,224 @@ export const items = [{
     id: 1,
     categoryId: 1,
     name: 'Dr Seuss Hat',
-    image: '/images/FunnyHat.jpg',
-    borrowed: false,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 2,
     categoryId: 1,
     name: 'Pharoh Hat',
-    image: '/images/FunnyHat.jpg',
-    borrowed: false,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 3,
     categoryId: 1,
     name: 'Sparkly Red Hat',
-    image: '/images/FunnyHat.jpg',
-    borrowed: true,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'yes',
     by: 'Anna_U'
   },
   {
     id: 4,
     categoryId: 1,
     name: 'Spotty Hat',
-    image: '/images/FunnyHat.jpg',
-    borrowed: false,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 5,
     categoryId: 1,
     name: 'Rainbow Striped Hat',
-    image: '/images/FunnyHat.jpg',
-    borrowed: false,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 6,
     categoryId: 1,
     name: 'Sombrero',
-    image: '/images/FunnyHat.jpg',
-    borrowed: true,
+    image: 'images/FunnyHat.jpg',
+    borrowed: 'yes',
     by: 'Anna_G'
   },
   {
     id: 7,
     categoryId: 2,
     name: 'Bean Bag',
-    image: '/images/furniture.jpeg',
-    borrowed: false,
+    image: 'images/furniture.jpeg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 8,
     categoryId: 2,
     name: 'Chair',
-    image: '/images/furniture.jpeg',
-    borrowed: false,
+    image: 'images/furniture.jpeg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 9,
     categoryId: 2,
     name: 'Desk',
-    image: '/images/furniture.jpeg',
-    borrowed: false,
+    image: 'images/furniture.jpeg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 10,
     categoryId: 3,
     name: 'Yoga Mat',
-    image: '/images/yoga.jpg',
-    borrowed: true,
+    image: 'images/yoga.jpg',
+    borrowed: 'yes',
     by: 'Jess'
   },
   {
     id: 11,
     categoryId: 3,
     name: 'Block',
-    image: '/images/yoga.jpg',
-    borrowed: false,
+    image: 'images/yoga.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 12,
     categoryId: 3,
     name: 'Strap',
-    image: '/images/yoga.jpg',
-    borrowed: true,
+    image: 'images/yoga.jpg',
+    borrowed: 'yes',
     by: 'David'
   },
   {
     id: 13,
     categoryId: 4,
     name: 'Daisy',
-    image: '/images/animals.jpg',
-    borrowed: false,
+    image: 'images/animals.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 14,
     categoryId: 5,
     name: 'Keyboard',
-    image: '/images/computerequip.jpg',
-    borrowed: false,
+    image: 'images/computerequip.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 15,
     categoryId: 5,
     name: 'Mouse',
-    image: '/images/computerequip.jpg',
-    borrowed: false,
+    image: 'images/computerequip.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 16,
     categoryId: 5,
     name: 'Monitor',
-    image: '/images/computerequip.jpg',
-    borrowed: true,
+    image: 'images/computerequip.jpg',
+    borrowed: 'yes',
     by: 'Rich'
   },
   {
     id: 17,
     categoryId: 6,
     name: 'Big Plate',
-    image: '/images/kitchen.jpg',
-    borrowed: false,
+    image: 'images/kitchen.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 18,
     categoryId: 6,
     name: 'Set of Cutlery',
-    image: '/images/kitchen.jpg',
-    borrowed: true,
+    image: 'images/kitchen.jpg',
+    borrowed: 'yes',
     by: 'Quinn'
   },
   {
     id:  19,
     categoryId: 6,
     name: 'Small Plate',
-    image: '/images/kitchen.jpg',
-    borrowed: false,
+    image: 'images/kitchen.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 20,
     categoryId: 6,
     name: 'Bowl',
-    image: '/images/kitchen.jpg',
-    borrowed: false,
+    image: 'images/kitchen.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 21,
     categoryId: 6,
     name: 'Mug',
-    image: '/images/kitchen.jpg',
-    borrowed: true,
+    image: 'images/kitchen.jpg',
+    borrowed: 'yes',
     by: 'Amanda'
   },
   {
     id: 22,
     categoryId: 6,
     name: 'Glass',
-    image: '/images/kitchen.jpg',
-    borrowed: false,
+    image: 'images/kitchen.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 23,
     categoryId: 7,
     name: 'FOB_1',
-    image: '/images/fob.jpg',
-    borrowed: false,
+    image: 'images/fob.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 24,
     categoryId: 7,
     name: 'FOB_2',
-    image: '/images/fob.jpg',
-    borrowed: false,
+    image: 'images/fob.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 25,
     categoryId: 7,
     name: 'FOB_3',
-    image: '/images/fob.jpg',
-    borrowed: false,
+    image: 'images/fob.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 26,
     categoryId: 7,
     name: 'FOB_4',
-    image: '/images/fob.jpg',
-    borrowed: true,
+    image: 'images/fob.jpg',
+    borrowed: 'yes',
     by: 'Ti'
   },
   {
     id: 27,
     categoryId: 7,
     name: 'FOB_5',
-    image: '/images/fob.jpg',
-    borrowed: false,
+    image: 'images/fob.jpg',
+    borrowed: 'no',
     by: null
   },
   {
     id: 28,
     categoryId: 7,
     name: 'FOB_6',
-    image: '/images/fob.jpg',
-    borrowed: false,
+    image: 'images/fob.jpg',
+    borrowed: 'no',
     by: null
   }
 ]
