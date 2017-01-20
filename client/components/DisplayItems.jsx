@@ -47,12 +47,6 @@ export default React.createClass({
                             <Link to={`/users/${item.userId}`}>{item.userId}</Link></p>
 
                     </div>
-                    {filteredUsers.map(user => {
-                      return (
-                      <div key={user.id} className="card-block">
-                          <p className="card-text"> By:
-                              <Link to={`/users/${user.id}`}>{item.by}</Link></p>
-                      </div>
                       )
                       })}
                 </div>
