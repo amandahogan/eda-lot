@@ -1,30 +1,43 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-import { users } from '../../public/things'
+import { users, items } from '../../public/things'
 
 export default React.createClass({
   getInitialState () {
     return {
-      users: []
+      users: [],
+      items:[]
     }
   },
 
   componentDidMount () {
     this.setState({
-      users: users
+      users: users,
+      items: items
     })
   },
 
   render () {
-    const filteredUsers = this.state.users.filter(user => {
+    const user = this.state.users.filter(user => {
       return user.id === Number(this.props.params.id)
+    })[0] || {id: 0, name: ''}
+    const filteredItems = this.state.items.filter(item => {
+      return item.userId === user.id
     })
     return (
       <div>
-        {filteredUsers.map(user => {
+        <h1>{user.name}</h1>
+        <h3>{user.email}</h3>
+        <img src={user.image} alt="Card image" width='200px' />
+        {filteredItems.map(item => {
           return (
-          <h1 key={user.id}>{user.name}</h1>
+            <div key={item.id} className="card">
+                <div className="card-block">
+                    <p className="card-text">{item.name}</p>
+                </div>
+                <img src={item.image} alt="Card image" width='200px' />
+            </div>
           )
         })}
       </div>
