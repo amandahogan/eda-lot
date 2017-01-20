@@ -5,7 +5,7 @@ export default React.createClass({
   render () {
     return (
       <div className='header'>
-      
+
         <div className="row">
 
           <div className="col-9 push-3">
@@ -14,7 +14,7 @@ export default React.createClass({
 
           <div className="col-3 pull-9">
             <Link to={'/'} >
-              <img src={'../../images/EDAlogo.png'} alt="Logo" img width="100px"/>
+              <img src={'../../images/EDAlogo.png'} alt="Logo" width="100px"/>
             </Link>
           </div>
 

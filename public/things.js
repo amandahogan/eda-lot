@@ -221,7 +221,7 @@ export const items = [{
     by: null
   },
   {
-    id: 24,
+    id: 25,
     categoryId: 7,
     name: 'FOB_3',
     image: '/images/fob.jpg',
@@ -229,7 +229,7 @@ export const items = [{
     by: null
   },
   {
-    id: 25,
+    id: 26,
     categoryId: 7,
     name: 'FOB_4',
     image: '/images/fob.jpg',
@@ -237,7 +237,7 @@ export const items = [{
     by: 'Ti'
   },
   {
-    id: 26,
+    id: 27,
     categoryId: 7,
     name: 'FOB_5',
     image: '/images/fob.jpg',
@@ -245,13 +245,13 @@ export const items = [{
     by: null
   },
   {
-    id: 27,
+    id: 28,
     categoryId: 7,
     name: 'FOB_6',
     image: '/images/fob.jpg',
     borrowed: false,
     by: null
-  },
+  }
 ]
 
 export const users = [
