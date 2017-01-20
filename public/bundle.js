@@ -89,7 +89,7 @@
 	        _reactRouter.Route,
 	        { component: _Content2.default },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _About2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: 'items/:id', component: _DisplayItems2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: 'categories/:id', component: _DisplayItems2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: 'users/:id', component: _UserProfile2.default })
 	      )
 	    )
@@ -26601,7 +26601,7 @@
 	      _react2.default.createElement(_Header2.default, null),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'row container-fluid' },
+	        { className: 'row container-fluid center' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-md-3' },
@@ -26609,7 +26609,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'content col-md-9' },
+	          { className: 'col-md-9' },
 	          this.props.children
 	        )
 	      ),
@@ -26641,13 +26641,13 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      { className: 'header' },
+	      { className: 'header bg-faded' },
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-9 push-3' },
+	          { className: 'pageTitle col-9 push-3' },
 	          _react2.default.createElement(
 	            'h1',
 	            null,
@@ -26691,22 +26691,22 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
+	      { className: 'categories' },
 	      _react2.default.createElement(
 	        'h2',
 	        null,
 	        'Categories'
 	      ),
 	      _react2.default.createElement(
-	        'ul',
-	        null,
+	        'nav',
+	        { className: 'nav flex-column' },
 	        this.props.categories.map(function (category) {
 	          return _react2.default.createElement(
-	            'li',
-	            { key: category.id },
+	            'a',
+	            { className: 'nav-link', key: category.id },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/items/' + category.id },
+	              { to: '/categories/' + category.id },
 	              category.name
 	            )
 	          );
@@ -26739,8 +26739,8 @@
 	      'div',
 	      { className: 'footer' },
 	      _react2.default.createElement(
-	        'div',
-	        { className: 'container' },
+	        'nav',
+	        { className: 'navbar fixed-bottom navbar-light bg-faded' },
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'text-muted' },
@@ -26787,197 +26787,197 @@
 	  id: 1,
 	  categoryId: 1,
 	  name: 'Dr Seuss Hat',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: false,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 2,
 	  categoryId: 1,
 	  name: 'Pharoh Hat',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: false,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 3,
 	  categoryId: 1,
 	  name: 'Sparkly Red Hat',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: true,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'yes',
 	  by: 'Anna_U'
 	}, {
 	  id: 4,
 	  categoryId: 1,
 	  name: 'Spotty Hat',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: false,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 5,
 	  categoryId: 1,
 	  name: 'Rainbow Striped Hat',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: false,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 6,
 	  categoryId: 1,
 	  name: 'Sombrero',
-	  image: '/images/FunnyHat.jpg',
-	  borrowed: true,
+	  image: 'images/FunnyHat.jpg',
+	  borrowed: 'yes',
 	  by: 'Anna_G'
 	}, {
 	  id: 7,
 	  categoryId: 2,
 	  name: 'Bean Bag',
-	  image: '/images/furniture.jpeg',
-	  borrowed: false,
+	  image: 'images/furniture.jpeg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 8,
 	  categoryId: 2,
 	  name: 'Chair',
-	  image: '/images/furniture.jpeg',
-	  borrowed: false,
+	  image: 'images/furniture.jpeg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 9,
 	  categoryId: 2,
 	  name: 'Desk',
-	  image: '/images/furniture.jpeg',
-	  borrowed: false,
+	  image: 'images/furniture.jpeg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 10,
 	  categoryId: 3,
 	  name: 'Yoga Mat',
-	  image: '/images/yoga.jpg',
-	  borrowed: true,
+	  image: 'images/yoga.jpg',
+	  borrowed: 'yes',
 	  by: 'Jess'
 	}, {
 	  id: 11,
 	  categoryId: 3,
 	  name: 'Block',
-	  image: '/images/yoga.jpg',
-	  borrowed: false,
+	  image: 'images/yoga.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 12,
 	  categoryId: 3,
 	  name: 'Strap',
-	  image: '/images/yoga.jpg',
-	  borrowed: true,
+	  image: 'images/yoga.jpg',
+	  borrowed: 'yes',
 	  by: 'David'
 	}, {
 	  id: 13,
 	  categoryId: 4,
 	  name: 'Daisy',
-	  image: '/images/animals.jpg',
-	  borrowed: false,
+	  image: 'images/animals.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 14,
 	  categoryId: 5,
 	  name: 'Keyboard',
-	  image: '/images/computerequip.jpg',
-	  borrowed: false,
+	  image: 'images/computerequip.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 15,
 	  categoryId: 5,
 	  name: 'Mouse',
-	  image: '/images/computerequip.jpg',
-	  borrowed: false,
+	  image: 'images/computerequip.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 16,
 	  categoryId: 5,
 	  name: 'Monitor',
-	  image: '/images/computerequip.jpg',
-	  borrowed: true,
+	  image: 'images/computerequip.jpg',
+	  borrowed: 'yes',
 	  by: 'Rich'
 	}, {
 	  id: 17,
 	  categoryId: 6,
 	  name: 'Big Plate',
-	  image: '/images/kitchen.jpg',
-	  borrowed: false,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 18,
 	  categoryId: 6,
 	  name: 'Set of Cutlery',
-	  image: '/images/kitchen.jpg',
-	  borrowed: true,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'yes',
 	  by: 'Quinn'
 	}, {
 	  id: 19,
 	  categoryId: 6,
 	  name: 'Small Plate',
-	  image: '/images/kitchen.jpg',
-	  borrowed: false,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 20,
 	  categoryId: 6,
 	  name: 'Bowl',
-	  image: '/images/kitchen.jpg',
-	  borrowed: false,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 21,
 	  categoryId: 6,
 	  name: 'Mug',
-	  image: '/images/kitchen.jpg',
-	  borrowed: true,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'yes',
 	  by: 'Amanda'
 	}, {
 	  id: 22,
 	  categoryId: 6,
 	  name: 'Glass',
-	  image: '/images/kitchen.jpg',
-	  borrowed: false,
+	  image: 'images/kitchen.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 23,
 	  categoryId: 7,
 	  name: 'FOB_1',
-	  image: '/images/fob.jpg',
-	  borrowed: false,
+	  image: 'images/fob.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 24,
 	  categoryId: 7,
 	  name: 'FOB_2',
-	  image: '/images/fob.jpg',
-	  borrowed: false,
+	  image: 'images/fob.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 25,
 	  categoryId: 7,
 	  name: 'FOB_3',
-	  image: '/images/fob.jpg',
-	  borrowed: false,
+	  image: 'images/fob.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 26,
 	  categoryId: 7,
 	  name: 'FOB_4',
-	  image: '/images/fob.jpg',
-	  borrowed: true,
+	  image: 'images/fob.jpg',
+	  borrowed: 'yes',
 	  by: 'Ti'
 	}, {
 	  id: 27,
 	  categoryId: 7,
 	  name: 'FOB_5',
-	  image: '/images/fob.jpg',
-	  borrowed: false,
+	  image: 'images/fob.jpg',
+	  borrowed: 'no',
 	  by: null
 	}, {
 	  id: 28,
 	  categoryId: 7,
 	  name: 'FOB_6',
-	  image: '/images/fob.jpg',
-	  borrowed: false,
+	  image: 'images/fob.jpg',
+	  borrowed: 'no',
 	  by: null
 	}];
 	
@@ -27105,17 +27105,17 @@
 	      "div",
 	      { className: "about" },
 	      _react2.default.createElement(
-	        "h1",
+	        "h2",
 	        null,
 	        "Do you need things?"
 	      ),
 	      _react2.default.createElement(
-	        "h4",
+	        "p",
 	        null,
 	        "We've got you covered. Using EDA's library of things, you can borrow whatever you need. It's just like a library, but with things! Who'd have thought."
 	      ),
 	      _react2.default.createElement(
-	        "h4",
+	        "p",
 	        null,
 	        "Simply click on one of the available categories and see all the great things you can borrow. You can only borrow one thing at a time, so make sure to return items as soon as you are finished with them. If the item you seek has already been borrowed, you can follow the link to their profile and send them an email."
 	      )
@@ -27147,12 +27147,14 @@
 	  displayName: 'DisplayItems',
 	  getInitialState: function getInitialState() {
 	    return {
-	      items: []
+	      items: [],
+	      users: []
 	    };
 	  },
 	  componentDidMount: function componentDidMount() {
 	    this.setState({
-	      items: _things.items
+	      items: _things.items,
+	      users: _things.users
 	    });
 	  },
 	  render: function render() {
@@ -27161,17 +27163,55 @@
 	    var filteredItems = this.state.items.filter(function (item) {
 	      return item.categoryId === Number(_this.props.params.id);
 	    });
+	    var filteredUsers = this.state.users.filter(function (user) {
+	      return user.itemId === Number(_this.props.params.id);
+	    });
 	    return _react2.default.createElement(
 	      'div',
 	      null,
 	      _react2.default.createElement(
-	        'ul',
-	        null,
+	        'div',
+	        { className: 'card-deck content' },
 	        filteredItems.map(function (item) {
 	          return _react2.default.createElement(
-	            _reactRouter.Link,
-	            { key: item.id, to: '/items/' + item.id },
-	            item.name
+	            'div',
+	            { key: item.id, className: 'card' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'card-block' },
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'card-text' },
+	                item.name
+	              )
+	            ),
+	            _react2.default.createElement('img', { src: item.image, alt: 'Card image', width: '200px' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'card-block' },
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'card-text' },
+	                'Borrowed: ',
+	                item.borrowed
+	              )
+	            ),
+	            filteredUsers.map(function (user) {
+	              return _react2.default.createElement(
+	                'div',
+	                { key: user.id, className: 'card-block' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'card-text' },
+	                  ' By:',
+	                  _react2.default.createElement(
+	                    _reactRouter.Link,
+	                    { to: '/users/' + user.id },
+	                    item.by
+	                  )
+	                )
+	              );
+	            })
 	          );
 	        })
 	      )
@@ -27193,12 +27233,41 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _reactRouter = __webpack_require__(178);
+	
+	var _things = __webpack_require__(237);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = _react2.default.createClass({
 	  displayName: 'UserProfile',
+	  getInitialState: function getInitialState() {
+	    return {
+	      users: []
+	    };
+	  },
+	  componentDidMount: function componentDidMount() {
+	    this.setState({
+	      users: _things.users
+	    });
+	  },
 	  render: function render() {
-	    return _react2.default.createElement('div', null);
+	    var _this = this;
+	
+	    var filteredUsers = this.state.users.filter(function (user) {
+	      return user.id === Number(_this.props.params.id);
+	    });
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      filteredUsers.map(function (user) {
+	        return _react2.default.createElement(
+	          'h1',
+	          { key: user.id },
+	          user.name
+	        );
+	      })
+	    );
 	  }
 	});
 

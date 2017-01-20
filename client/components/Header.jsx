@@ -5,11 +5,11 @@ import { Link } from 'react-router'
 export default React.createClass({
   render () {
     return (
-      <div className='header'>
+      <div className='header bg-faded'>
 
         <div className="row">
 
-          <div className="col-9 push-3">
+          <div className="pageTitle col-9 push-3">
             <h1>EDA's Library of Things</h1>
           </div>
 

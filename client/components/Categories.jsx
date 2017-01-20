@@ -5,14 +5,14 @@ import { Link } from 'react-router'
 export default React.createClass({
   render () {
     return (
-      <div>
+      <div className="categories">
         <h2>Categories</h2>
-        <ul>
+        <nav className="nav flex-column">
          {this.props.categories.map( category => {
-           return (<li key={category.id}><Link to = {`/categories/${category.id}`}>{category.name}</Link></li>)
+           return (<a className="nav-link" key={category.id}><Link to = {`/categories/${category.id}`}>{category.name}</Link></a>)
          } )}
 
-        </ul>
+        </nav>
       </div>
     )
   }

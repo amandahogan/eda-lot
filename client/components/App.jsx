@@ -12,12 +12,12 @@ export default React.createClass({
       <div className="container-fluid">
         <Header />
 
-        <div className="row container-fluid">
+        <div className="row container-fluid center">
           <div className="col-md-3">
             <Categories categories={categories} />
           </div>
 
-          <div class ="col-8 pull-4">{this.props.children}</div>
+          <div className="col-md-9">{this.props.children}</div>
 
         </div>
 
