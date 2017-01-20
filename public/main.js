@@ -11,21 +11,32 @@ export default StyleSheet.create({
         "borderColor": "blue"
     },
     "header": {
-        "fontFamily": "'Arial Black', 'Arial Bold', Gadget, sans-serif",
+        "fontFamily": "'Noto Serif', serif",
         "color": "#ef1509",
         "borderStyle": "solid",
-        "borderColor": "red"
+        "borderColor": "red",
+        "paddingLeft": 10
     },
     "categories": {
         "borderStyle": "solid",
-        "borderColor": "grey"
+        "borderColor": "grey",
+        "paddingLeft": 10
     },
     "content": {
         "borderStyle": "solid",
-        "borderColor": "red"
+        "borderColor": "red",
+        "paddingRight": 10
     },
     "footer": {
+        "paddingLeft": 10,
         "borderStyle": "solid",
-        "borderColor": "grey"
+        "borderColor": "grey",
+        "position": "absolute",
+        "bottom": 0,
+        "width": "100%",
+        "height": 60,
+        "backgroundColor": "#f5f5f5",
+        "textAlign": "center",
+        "paddingTop": 20
     }
 });
