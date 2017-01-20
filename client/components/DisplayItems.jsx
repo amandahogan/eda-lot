@@ -24,8 +24,8 @@ export default React.createClass({
     const filteredItems = this.state.items.filter(item => {
       return item.categoryId === Number(this.props.params.id)
     })
-    const filteredUsers = this.state.users.filter(user => {
-      return user.itemId === Number(this.props.params.id)
+    const filteredUsersItems = this.state.items.filter(item => {
+      return item.userId === Number(this.props.params.id)
     })
     return (
       <div>
@@ -40,11 +40,11 @@ export default React.createClass({
                   <div className="card-block">
                       <p className="card-text">Borrowed: {item.borrowed}</p>
                   </div>
-                  {filteredUsers.map(user => {
+                  {filteredUsersItems.map(user => {
                     return (
                     <div key={user.id} className="card-block">
                         <p className="card-text"> By:
-                            <Link to={`/users/${user.id}`}>{item.by}</Link></p>
+                            <Link to={`/users/${item.userId}`}>{item.userId}</Link></p>
                     </div>
                     )
                     })}

@@ -34,7 +34,7 @@ export const items = [{
     name: 'Dr Seuss Hat',
     image: 'images/FunnyHat.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const items = [{
     name: 'Pharoh Hat',
     image: 'images/FunnyHat.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export const items = [{
     name: 'Sparkly Red Hat',
     image: 'images/FunnyHat.jpg',
     borrowed: 'yes',
-    by: 'Anna_U'
+    userId: 4
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ export const items = [{
     name: 'Spotty Hat',
     image: 'images/FunnyHat.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 5,
@@ -66,7 +66,7 @@ export const items = [{
     name: 'Rainbow Striped Hat',
     image: 'images/FunnyHat.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ export const items = [{
     name: 'Sombrero',
     image: 'images/FunnyHat.jpg',
     borrowed: 'yes',
-    by: 'Anna_G'
+    userId: 3
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ export const items = [{
     name: 'Bean Bag',
     image: 'images/furniture.jpeg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ export const items = [{
     name: 'Chair',
     image: 'images/furniture.jpeg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 9,
@@ -98,7 +98,7 @@ export const items = [{
     name: 'Desk',
     image: 'images/furniture.jpeg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 10,
@@ -106,7 +106,7 @@ export const items = [{
     name: 'Yoga Mat',
     image: 'images/yoga.jpg',
     borrowed: 'yes',
-    by: 'Jess'
+    userId: 6
   },
   {
     id: 11,
@@ -114,7 +114,7 @@ export const items = [{
     name: 'Block',
     image: 'images/yoga.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 12,
@@ -122,7 +122,7 @@ export const items = [{
     name: 'Strap',
     image: 'images/yoga.jpg',
     borrowed: 'yes',
-    by: 'David'
+    userId: 5
   },
   {
     id: 13,
@@ -130,7 +130,7 @@ export const items = [{
     name: 'Daisy',
     image: 'images/animals.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 14,
@@ -138,15 +138,15 @@ export const items = [{
     name: 'Keyboard',
     image: 'images/computerequip.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 15,
     categoryId: 5,
     name: 'Mouse',
     image: 'images/computerequip.jpg',
-    borrowed: 'no',
-    by: null
+    borrowed: 'yes',
+    userId: 7
   },
   {
     id: 16,
@@ -154,7 +154,7 @@ export const items = [{
     name: 'Monitor',
     image: 'images/computerequip.jpg',
     borrowed: 'yes',
-    by: 'Rich'
+    userId: 9
   },
   {
     id: 17,
@@ -162,7 +162,7 @@ export const items = [{
     name: 'Big Plate',
     image: 'images/kitchen.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 18,
@@ -170,7 +170,7 @@ export const items = [{
     name: 'Set of Cutlery',
     image: 'images/kitchen.jpg',
     borrowed: 'yes',
-    by: 'Quinn'
+    userId: 8
   },
   {
     id:  19,
@@ -178,7 +178,7 @@ export const items = [{
     name: 'Small Plate',
     image: 'images/kitchen.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 20,
@@ -186,7 +186,7 @@ export const items = [{
     name: 'Bowl',
     image: 'images/kitchen.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 21,
@@ -194,7 +194,7 @@ export const items = [{
     name: 'Mug',
     image: 'images/kitchen.jpg',
     borrowed: 'yes',
-    by: 'Amanda'
+    userId: 2
   },
   {
     id: 22,
@@ -202,7 +202,7 @@ export const items = [{
     name: 'Glass',
     image: 'images/kitchen.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 23,
@@ -210,7 +210,7 @@ export const items = [{
     name: 'FOB_1',
     image: 'images/fob.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 24,
@@ -218,7 +218,7 @@ export const items = [{
     name: 'FOB_2',
     image: 'images/fob.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 25,
@@ -226,7 +226,7 @@ export const items = [{
     name: 'FOB_3',
     image: 'images/fob.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 26,
@@ -234,7 +234,7 @@ export const items = [{
     name: 'FOB_4',
     image: 'images/fob.jpg',
     borrowed: 'yes',
-    by: 'Ti'
+    userId: 10
   },
   {
     id: 27,
@@ -242,15 +242,15 @@ export const items = [{
     name: 'FOB_5',
     image: 'images/fob.jpg',
     borrowed: 'no',
-    by: null
+    userId: null
   },
   {
     id: 28,
     categoryId: 7,
     name: 'FOB_6',
     image: 'images/fob.jpg',
-    borrowed: 'no',
-    by: null
+    borrowed: 'yes',
+    userId: 1
   }
 ]
 
@@ -258,71 +258,81 @@ export const users = [
   {
     id: 1,
     name: 'Alice',
-    itemId: null,
+    itemId: 28,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars2.githubusercontent.com/u/11096313?v=3&s=96'
+    image: 'https://avatars2.githubusercontent.com/u/11096313?v=3&s=96',
+    categoryId: 7
   },
   {
     id: 2,
     name: 'Amanda',
     itemId: 21,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars2.githubusercontent.com/u/20230839?v=3&s=96'
+    image: 'https://avatars2.githubusercontent.com/u/20230839?v=3&s=96',
+    categoryId: 6
   },
   {
     id: 3,
     name: 'Anna_G',
     itemId: 6,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars0.githubusercontent.com/u/22289088?v=3&s=96'
+    image: 'https://avatars0.githubusercontent.com/u/22289088?v=3&s=96',
+    categoryId: 1
   },
   {
     id: 4,
     name: 'Anna_U',
     itemId: 3,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars0.githubusercontent.com/u/19509465?v=3&s=96'
+    image: 'https://avatars0.githubusercontent.com/u/19509465?v=3&s=96',
+    categoryId: 1
   },
   {
     id: 5,
     name: 'David',
     itemId: 10,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars1.githubusercontent.com/u/12044333?v=3&s=96'
+    image: 'https://avatars1.githubusercontent.com/u/12044333?v=3&s=96',
+    categoryId: 3
   },
   {
     id: 6,
     name: 'Jess',
     itemId: 12,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars3.githubusercontent.com/u/22064356?v=3&s=96'
+    image: 'https://avatars3.githubusercontent.com/u/22064356?v=3&s=96',
+    categoryId: 3
   },
   {
     id: 7,
     name: 'Don',
-    itemId: null,
+    itemId: 15,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars3.githubusercontent.com/u/228761?v=3&s=96'
+    image: 'https://avatars3.githubusercontent.com/u/228761?v=3&s=96',
+    categoryId: 5
   },
   {
     id: 8,
     name: 'Quinn',
     itemId: 18,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars1.githubusercontent.com/u/16204154?v=3&s=96'
+    image: 'https://avatars1.githubusercontent.com/u/16204154?v=3&s=96',
+    categoryId: 6
   },
   {
     id: 9,
     name: 'Rich',
     itemId: 16,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars0.githubusercontent.com/u/171905?v=3&s=96'
+    image: 'https://avatars0.githubusercontent.com/u/171905?v=3&s=96',
+    categoryId: 5
   },
   {
     id: 10,
     name: 'Ti',
     itemId: 25,
     email: 'actualEmail@completelyReal.com',
-    image: 'https://avatars1.githubusercontent.com/u/18096040?v=3&s=96'
+    image: 'https://avatars1.githubusercontent.com/u/18096040?v=3&s=96',
+    categoryId: 7
   }
 ]
