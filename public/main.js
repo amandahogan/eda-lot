@@ -11,7 +11,7 @@ export default StyleSheet.create({
         "borderColor": "blue"
     },
     "header": {
-        "fontFamily": "'Arial Black', 'Arial Bold', Gadget, sans-serif",
+        "fontFamily": "'Noto Serif', serif",
         "color": "#ef1509",
         "borderStyle": "solid",
         "borderColor": "red"
@@ -25,7 +25,12 @@ export default StyleSheet.create({
         "borderColor": "red"
     },
     "footer": {
-        "borderStyle": "solid",
-        "borderColor": "grey"
+        "position": "absolute",
+        "bottom": 0,
+        "width": "100%",
+        "height": 60,
+        "backgroundColor": "#f5f5f5",
+        "textAlign": "center",
+        "paddingTop": 20
     }
 });
