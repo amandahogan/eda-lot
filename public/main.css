@@ -1,4 +1,3 @@
-
 .nav flex-column {
   border-style: solid;
   border-color: blue;
@@ -9,18 +8,22 @@
   color: #ef1509;
   border-style: solid;
   border-color: red;
+  padding-left: 10px;
 }
 .categories {
   border-style: solid;
   border-color: grey;
+  padding-left: 10px;
 }
 
 .content {
   border-style: solid;
   border-color: red;
+  padding-right: 10px;
 }
 
 .footer {
+  padding-left: 10px;
   border-style: solid;
   border-color: grey;
 }

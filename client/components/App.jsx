@@ -9,15 +9,15 @@ import { categories } from '../../public/things.js'
 export default React.createClass({
   render () {
     return (
-      <div>
+      <div className="container-fluid">
         <Header />
 
-        <div className="row">
-          <div className="col-4">
+        <div className="row container-fluid">
+          <div className="col-md-3">
             <Categories categories={categories} />
           </div>
 
-          <div className="col-8 pull-4">{this.props.children}</div>
+          <div className="content col-md-9">{this.props.children}</div>
         </div>
 
         <Footer />
